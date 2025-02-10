@@ -106,8 +106,7 @@ def plot_results():
     plt.show()
 
 rng = np.random.default_rng()
-#n = rng.integers(1,10) # Degree of the polynomial
-n=3
+n = rng.integers(1,10) # Degree of the polynomial
 
 sigma = 2
 f = polynomial()
